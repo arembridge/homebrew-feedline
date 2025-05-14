@@ -1,9 +1,9 @@
 class Feedline < Formula
   desc "Provide files, we'll make sure there is one empty line at the end.  Simples."
   homepage "https://github.com/arembridge/feedline"
-  url "https://github.com/arembridge/feedline/releases/download/v0.0.0/feedline-macos"
-  sha256 "051b995ccad3674df97534ea30a6e21fb12e8523a10cef9cc725b1819cf937a9"
-  version "0.0.0"
+  url "https://github.com/arembridge/feedline/releases/download/v0.1.0/feedline-macos"
+  sha256 "365a7b8a7a0fb2705506bb26b36caaba874747a1cb436d8d9d4344e2f5ca758a"
+  version "0.1.0"
 
   def install
     bin.install "feedline-macos" => "feedline"
