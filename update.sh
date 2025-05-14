@@ -10,7 +10,7 @@ FORMULA_CLASS="Feedline"
 
 # === INPUT ===
 if [[ $# -ne 1 ]]; then
-  echo "Usage: $0 <version>"
+  echo "Usage: $0 <version (X.X.X)>"
   exit 1
 fi
 
